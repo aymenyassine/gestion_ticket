@@ -1,0 +1,58 @@
+.ticket-details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .detail-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+  
+  .detail-item:last-child {
+    border-bottom: none;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #555;
+    min-width: 120px; /* Pour aligner les labels */
+  }
+  
+  .value {
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .loading-container {
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .no-ticket {
+    text-align: center;
+    color: #777;
+    margin-top: 50px;
+  }

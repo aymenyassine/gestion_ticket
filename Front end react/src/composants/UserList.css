@@ -1,0 +1,74 @@
+/* UserList.css */
+
+.user-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .user-table-header th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .user-table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table-row td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading-container {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
